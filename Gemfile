@@ -30,6 +30,8 @@ group :development, :test do
   gem 'grade_runner', github: 'firstdraft/grade_runner'
   gem 'pry-rails'
   gem 'sqlite3', '~> 1.4.1'
+  gem "openai", '~>0.2.0'
+  gem "dotenv-rails"
   gem 'table_print'
   gem 'web_git', github: 'firstdraft/web_git'
 end
